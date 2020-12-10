@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/EccommerceWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/database/DBconnect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/database/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/banner_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/banner_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/banner_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_game_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_game_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_game_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_game_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_gtw_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_gtw_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/biurka_gtw_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/blogs/blogs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/brak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/motyl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/parawan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/assets/sitemap.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/html/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_banner_adds.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_banner_area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_blogs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_cart_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_new_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_special_price.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_top_sale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/.bin/sass" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/.bin/sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/.bin/sass.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/.bin/sass.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/.bin/sass.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/.bin/sass.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/anymatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/anymatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/anymatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/anymatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/anymatch/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/anymatch/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/anymatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/anymatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/anymatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/anymatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/binary-extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/binary-extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/binary-extensions.json.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/binary-extensions.json.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/license" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/binary-extensions/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/binary-extensions/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/compile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/compile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/expand.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/expand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/stringify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/braces/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/braces/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/chokidar/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/chokidar/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fill-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fill-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fill-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fill-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fill-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fill-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fill-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fill-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/fsevents.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/fsevents.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/fsevents.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/fsevents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/fsevents.node" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/fsevents.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/fsevents/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/fsevents/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/glob-parent/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/glob-parent/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/glob-parent/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/glob-parent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/glob-parent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/glob-parent/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/glob-parent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/glob-parent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-binary-path/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-binary-path/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-binary-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-binary-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-binary-path/license" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-binary-path/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-binary-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-binary-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-binary-path/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-binary-path/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-extglob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-extglob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-extglob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-extglob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-extglob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-extglob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-extglob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-extglob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-glob/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-glob/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-glob/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-glob/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-glob/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-glob/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-glob/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-number/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-number/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-number/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-number/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-number/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-number/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/is-number/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/is-number/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/normalize-path/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/normalize-path/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/normalize-path/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/normalize-path/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/normalize-path/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/normalize-path/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/normalize-path/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/normalize-path/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/lib/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/lib/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/lib/picomatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/lib/picomatch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/lib/scan.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/lib/scan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/picomatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/picomatch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/readdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/readdirp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/readdirp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/readdirp/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/readdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/readdirp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/readdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/readdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/sass/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/sass/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/sass/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/sass/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/sass/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/sass/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/sass/sass.dart.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/sass/sass.dart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/sass/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/sass/sass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/to-regex-range/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/to-regex-range/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/to-regex-range/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/to-regex-range/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/to-regex-range/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/to-regex-range/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/node_modules/to-regex-range/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/node_modules/to-regex-range/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/special-price.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/special-price.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/top-sale.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/top-sale.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/include/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/style.css.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1lTt9gVTfdtSnsu31csy7d0rYmn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../biurka" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\template" />
+      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug._new_products.php">
+    <configuration name="_new_products.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EccommerceWebsite/Eccommerce Website/template/_new_products.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Eccommerce Website/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug._new_products.php" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="" />
+      <created>1607632759125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607632759125</updated>
+      <workItem from="1607632760231" duration="440000" />
+      <workItem from="1607633252266" duration="9133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

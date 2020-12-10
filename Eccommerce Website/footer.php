@@ -1,0 +1,68 @@
+</main>
+<!-- finish main -->
+
+
+<!-- start footer -->
+<footer id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Biurka Plex</h4>
+                <p class="font-size-14 font-raleway text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, nihil!</p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newsletter</h4>
+                <form class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Email *">
+                    </div>
+                    <div class="col">
+                        <button type="submit" class="btn btn-danger mb-2">Zasubskrybuj</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Informacje</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">O nas</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Informacje o dostawie</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Polityka Prywatności</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Regulamin sklepu</a>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Konto</h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Moje konto</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Historia zamówień</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Lista życzeń</a>
+                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Newsletters</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-raleway font-size-14">&copy;Copyrights 2020.Design By <a href="#" class="color-second text-decoration-none">Kacper Gaweł</a></p>
+</div>
+<!-- finish footer -->
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<!-- owl carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<!-- Isotope -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+<!-- custom js -->
+<script
+    src="index.js"></script>
+</body>
+</html>

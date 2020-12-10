@@ -1,97 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Raleway&family=Rubik&display=swap");
 /* Sass Template */
 button.button:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .font-baloo {
-    font-family: "Baloo Thambi 2", cursive;
+  font-family: "Baloo Thambi 2", cursive;
 }
 
 .font-raleway {
-    font-family: "Raleway", cursive;
+  font-family: "Raleway", cursive;
 }
 
 .font-rubik {
-    font-family: "Rubik", cursive;
+  font-family: "Rubik", cursive;
 }
 
 .font-size-12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .font-size-14 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .font-size-16 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .font-size-20 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .color-primary {
-    color: #000000;
+  color: #000000;
 }
 
 .color-primary-bg {
-    background: #000000;
+  background: #000000;
 }
 
 .color-second {
-    color: #DC143C;
+  color: #DC143C;
 }
 
 .color-second-bg {
-    background: #DC143C;
+  background: #DC143C;
 }
 
 .color-yellow {
-    color: #ffd289;
+  color: #ffd289;
 }
 
 .color-yellow-bg {
-    background: #ffd289;
+  background: #ffd289;
 }
 
 #top-sale .owl-carousel .item .product a {
-    overflow: hidden;
+  overflow: hidden;
 }
 #top-sale .owl-carousel .item .product img {
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 #top-sale .owl-carousel .item .product img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 #top-sale .owl-carousel .owl-nav button {
-    position: absolute;
-    top: 30%;
-    outline: none;
+  position: absolute;
+  top: 30%;
+  outline: none;
 }
 #top-sale .owl-carousel .owl-nav button.owl-prev {
-    left: 0;
+  left: 0;
 }
 #top-sale .owl-carousel .owl-nav button.owl-prev span,
 #top-sale .owl-carousel .owl-nav button.owl-next span {
-    font-size: 35px;
-    color: #000000;
-    padding: 0 1rem;
+  font-size: 35px;
+  color: #000000;
+  padding: 0 1rem;
 }
 #top-sale .owl-carousel .owl-nav button.owl-prev span {
-    margin-left: -4rem;
+  margin-left: -4rem;
 }
 #top-sale .owl-carousel .owl-nav button.owl-next {
-    right: 0;
+  right: 0;
 }
 #top-sale .owl-carousel .owl-nav button.owl-next span {
-    margin-right: -4rem;
+  margin-right: -4rem;
 }
 #special-price .grid .grid-item{
-    margin-right: 1.2rem;
-    margin-top: 1rem;
+  margin-right: 1.2rem;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
