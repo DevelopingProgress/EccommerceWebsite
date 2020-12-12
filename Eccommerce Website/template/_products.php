@@ -1,9 +1,22 @@
+<?php
+    $item_id = $_GET['item_id'] ?? 1;
+    $products_db = fetchProduct('product');
+    foreach ($products_db as $item):
+        if ($item['item_id'] == $item_id):
+            $in_cart =  getCartId(fetchProduct('cart'));
+            if($_SERVER['REQUEST_METHOD'] == "POST"){
+                if(isset($_POST['product_submit'])){
+                    addtoCart($_POST['user_id'], $_POST['item_id']);
+                    header("Location:product.php?item_id=".$item_id);
+                }
+            }
+?>
 <!--  start product  -->
 <section id="product" class="py-3">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img src="./assets/biurka_game_1.png" alt="" class="img-fluid">
+                <img src="<?php echo $item['item_image'] ?? '.asstets/biurka_game_1.png' ?>" alt="" class="img-fluid">
                 <div class="row row-cols-2 pt-4 font-size-16 font-baloo">
 
                     <div class="col">
@@ -12,38 +25,35 @@
                     </div>
 
                     <div class="col">
-                        <button type="submit" class="btn bg-dark text-white form-control">Do koszyka</button>
+                        <form method="post">
+                            <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? 'i';?>">
+                            <input type="hidden" name="user_id" value="<?php echo 1;?>">
+                        <?php
+                        if(in_array($item['item_id'], $in_cart ?? []) ){
+                            echo ' <button type="submit" disabled class="btn btn-success text-white form-control">w koszyku</button>';
+                        }else{
+                            echo '<button type="submit" name="product_submit" class="btn bg-dark text-white form-control">Do koszyka</button>';
+                        }
+
+                        ?>
+                        </form>
                     </div>
 
                 </div>
             </div>
             <div class="col-sm-6 py-5">
-                <h5 class="font-baloo font-size-20">Biurko gamingowe PLEX GAME 1</h5>
-                <small>by PLEX</small>
+                <h5 class="font-baloo font-size-20"><?php echo $item['item_name'] ?? 'Unknown'?></h5>
+                <small>by <?php echo $item['item_brand'] ?? 'Brand:' ?></small>
                 <div class="d-flex">
-                    <div class="rating text-warning font-size-12">
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                        <span><i class="fas fa-star"></i></span>
-                    </div>
                     <a href="#" class="px-2 font-raleway font-size-14" style="text-decoration: none">20000 ocen | 1000+ udzielonych odpowiedzi</a>
                 </div>
                 <hr class="m-0">
 
                 <!-- product price -->
                 <table class="my-3">
-                    <tr class="font-raleway font-size-14">
-                        <td><strike>512 zł</strike></td>
-                    </tr>
-                    <tr class="font-raleway font-size-14">
+                    <tr class="font-roboto font-size-14">
                         <td>Cena:</td>
-                        <td class="font-size-20 text-danger"><span>356 zł</span><small class="text-dark font-size-12">&nbsp;&nbsp;brutto</small></td>
-                    </tr>
-                    <tr class="font-raleway font-size-12">
-                        <td>Oszczędzasz:</td>
-                        <td class="font-size-16 text-danger"><span>147 zł</span></td>
+                        <td class="font-size-20 text-danger"><span><?php echo $item['item_price'].' zł'; ?></span><small class="text-dark font-size-12">&nbsp;&nbsp;+VAT</small></td>
                     </tr>
                 </table>
                 <!-- product price -->
@@ -139,3 +149,9 @@
 </section>
 
 <!--  finish product  -->
+<?php
+endif;
+endforeach;
+
+?>
+

@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,6 +22,7 @@
     //require db connection
     require ("database/DBconnect.php");
     require ("functions.php");
+
     ?>
 
 </head>
@@ -26,40 +30,52 @@
 
 <!-- start header -->
 <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
-        <p class="font-raleway font-size-20 text-black-50 m-0">Przedsiębiorstwo Techniczne PLEX  Sp. z o.o.  NIP 6312663788   REGON 364950320  44-100 Gliwice, ul. Chorzowska 58 tel. +48 32 270 35 48</p>
+    <div class="strip d-flex justify-content-between px-4 py-1 m-0 bg-light">
+        <p class="font-roboto font-size-20 text-black-50 m-0">Przedsiębiorstwo Techniczne PLEX  Sp. z o.o.  NIP 6312663788   REGON 364950320  44-100 Gliwice, ul. Chorzowska 58 tel. +48 32 270 35 48</p>
         <div class="font-raleway font-size-14">
-            <a href="#" class="px-3 border-right border-left text-dark text-decoration-none">Zaloguj się</a>
-            <a href="#" class="px-3 border-right  text-dark text-decoration-none">Lista życzeń(0)</a>
+            <a href="<?php if(isset($_SESSION['admin'])) echo 'panel.php'; else echo 'login.php' ?>" class="px-3 border-right border-left text-dark text-decoration-none"><?php
+
+
+                if(isset($_SESSION['admin'])){
+                    echo $_SESSION['admin'];
+                }else{
+                    echo 'Zaloguj się';
+                }
+
+
+                ?></a>
+            <?php
+                $count = count(fetchProduct('wishlist')) ?? 0;
+                if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-dark text-decoration-none">Lista życzeń('.$count.')</a>'
+            ?>
         </div>
     </div>
 
     <!-- start primary nav -->
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">PLEX BIURKA</a>
+            <a class="navbar-brand" href="index.php">PLEX BIURKA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav m-auto">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Wyprzedaż</a>
+                        <a class="nav-link" href="#">Oferta<i class="fas fa-chevron-down"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kotegorie<i class="fas fa-chevron-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Produkty <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link" href="#">Kategorie <i class="fas fa-chevron-down"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kontakt</a>
                     </li>
                 </ul>
                 <form action="#" class="font-size-14 font-rale">
-                    <a href="#" class="py-2 rounded-pill color-primary-bg text-decoration-none">
+                    <a href="cart.php" class="py-2 rounded-pill color-primary-bg text-decoration-none">
                         <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
-                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light"><?php
+                            if(isset($_SESSION['admin'])) $count = count(fetchProduct('cart')) ?? 0;;
+                            echo $count;?></span>
                     </a>
                 </form>
             </div>

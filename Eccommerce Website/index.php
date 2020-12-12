@@ -1,4 +1,5 @@
 <?php
+ob_start();
     /*header*/
     include('header.php')
 ?>
@@ -22,10 +23,6 @@
     <?php
         /*new-products section*/
         include('template/_new_products.php');
-    ?>
-    <?php
-        /*blogs area*/
-        include('template/_blogs.php');
     ?>
 
 <?php

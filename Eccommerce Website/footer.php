@@ -34,18 +34,16 @@
             <div class="col-lg-2 col-12">
                 <h4 class="font-rubik font-size-20">Konto</h4>
                 <div class="d-flex flex-column flex-wrap">
-                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Moje konto</a>
+                    <a href="panel.php" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Moje konto</a>
                     <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Historia zamówień</a>
                     <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Lista życzeń</a>
-                    <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Newsletters</a>
-
                 </div>
             </div>
         </div>
     </div>
 </footer>
 <div class="copyright text-center bg-dark text-white py-2">
-    <p class="font-raleway font-size-14">&copy;Copyrights 2020.Design By <a href="#" class="color-second text-decoration-none">Kacper Gaweł</a></p>
+    <p class="font-raleway font-size-14">&copy;Copyrights 2020.Design By <a href="https://www.linkedin.com/in/developingprogress/" class="color-second text-decoration-none">Kacper Gaweł</a></p>
 </div>
 <!-- finish footer -->
 
@@ -54,8 +52,7 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 <!-- owl carousel -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
