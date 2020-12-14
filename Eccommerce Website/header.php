@@ -1,5 +1,4 @@
 
-<?php     var_dump($_SESSION);?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -73,8 +72,7 @@
                     <a href="cart.php" class="py-2 rounded-pill color-primary-bg text-decoration-none">
                         <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
                         <span class="px-3 py-2 rounded-pill text-dark bg-light"><?php
-                            if(isset($_SESSION['admin'])) $count = count(fetchProduct('cart')) ?? 0;;
-                            echo $count;?></span>
+                            echo count(fetchProduct('cart'));?></span>
                     </a>
                 </form>
             </div>

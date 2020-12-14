@@ -4,7 +4,8 @@ function fetchProduct($table = 'product'){
     include ('DBconnect.php');
     $sql = "SELECT * FROM {$table} ";
     if($table == 'cart'){
-        $sql.="WHERE user_id={$_SESSION['userID']}";
+        if(isset($_SESSION['userID'])) $sql.="WHERE user_id={$_SESSION['userID']}";
+        else $sql.="WHERE user_id=0";
     }
     $stmt = $dbconnect->prepare($sql);
     $stmt->execute();

@@ -13,8 +13,10 @@ function login($email, $password){
             $_SESSION['email'] = $login_rows[0]['user_email'];
             $_SESSION['userID'] = $login_rows[0]['user_id'];
             $_SESSION['wishlist_count'] = count(fetchProduct('wishlist'));
-            header("Location:index.php");
+            $_SESSION['cart_count'] = count(fetchProduct('cart'));
             session_start();
+            header("Location:index.php");
+
         }
         else{
             header("Location:login.php?action=loginfailed");

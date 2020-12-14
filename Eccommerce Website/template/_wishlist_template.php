@@ -9,6 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         rotate($_POST['item_id'], 'cart', 'wishlist');
     }
 }
+if(isset($_SESSION['admin'])){
 ?>
 <section id="cart" class="py-3 mb-5">
     <div class="container-fluid w-75">
@@ -79,3 +80,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         </div>
     </div>
 </section>
+<?php
+}

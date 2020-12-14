@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="">
+    <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_new_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_new_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_special_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_special_price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_top_sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_top_sale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_cart_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_cart_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_wishlist_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_wishlist_template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../biurka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -88,8 +86,17 @@
       <workItem from="1607683821506" duration="17036000" />
       <workItem from="1607760964031" duration="6704000" />
       <workItem from="1607769035022" duration="16682000" />
-      <workItem from="1607939317950" duration="2075000" />
+      <workItem from="1607939317950" duration="3073000" />
+      <workItem from="1607942472475" duration="1504000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1607941536747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607941536747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

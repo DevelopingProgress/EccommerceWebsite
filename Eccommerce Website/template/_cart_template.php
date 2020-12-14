@@ -24,8 +24,8 @@ ob_start();
                         $product = getProduct($item['item_id']);
 
                         $subTotal[] = array_map(function ($item){
-                            if(!isset($_SESSION['admin'])) $subTotal[] = null;
-                            else{
+
+
 
                 ?>
                 <div class="row">
@@ -61,14 +61,18 @@ ob_start();
                                 </div>
                                 <form method="post">
                                     <input type="hidden" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
-                                    <button type="submit" name="delete_cart_submit" class="btn font-baloo text-danger px-3 border-end">Usuń</button>
+                                    <button type="submit" name="delete_cart_submit" class="btn font-baloo text-danger px-3 ">Usuń</button>
                                 </form>
-
+                                <?php
+                                if(isset($_SESSION['admin'])){
+                                ?>
                                 <form method="post">
                                     <input type="hidden" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
-                                    <button type="submit" name="wishlist_submit" class="btn font-baloo text-danger px-3">Dodaj do listy życzeń</button>
+                                    <button type="submit" name="wishlist_submit" class="btn font-baloo text-danger px-3 border-start">Dodaj do listy życzeń</button>
                                 </form>
-
+                                <?php
+                                }
+                                ?>
                             </div>
                             <!-- product qty -->
                         </div>
@@ -81,7 +85,7 @@ ob_start();
                 </div>
                 <?php
                 return $item['item_price'];
-                            }},$product);
+                            },$product);
 
                     endforeach;
                     if(empty($subTotal)) echo '<h5 class="font-baloo font-size-16 text-danger">Koszyk jest pusty</h5>'
