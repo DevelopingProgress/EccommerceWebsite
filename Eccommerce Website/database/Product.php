@@ -2,7 +2,10 @@
 
 function fetchProduct($table = 'product'){
     include ('DBconnect.php');
-    $sql = "SELECT * FROM {$table}";
+    $sql = "SELECT * FROM {$table} ";
+    if($table == 'cart'){
+        $sql.="WHERE user_id={$_SESSION['userID']}";
+    }
     $stmt = $dbconnect->prepare($sql);
     $stmt->execute();
     $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);

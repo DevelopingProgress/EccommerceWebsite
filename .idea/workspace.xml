@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/database/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/database/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/database/Wishlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/panel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_login_template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_panel_template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/_wishlist_template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Eccommerce Website/template/ajax.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eccommerce Website/database/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/database/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/include/variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/html/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/html/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/html/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_blogs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_cart_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_cart_template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_new_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_new_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_special_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_special_price.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Eccommerce Website/template/_top_sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/Eccommerce Website/template/_top_sale.php" afterDir="false" />
     </list>
@@ -111,6 +88,7 @@
       <workItem from="1607683821506" duration="17036000" />
       <workItem from="1607760964031" duration="6704000" />
       <workItem from="1607769035022" duration="16682000" />
+      <workItem from="1607939317950" duration="2075000" />
     </task>
     <servers />
   </component>

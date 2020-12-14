@@ -86,7 +86,7 @@ function clearCart($table = 'cart'){
         $stmt = $dbconnect->prepare($sql);
         $stmt->execute();
         if($stmt){
-//            header("Location:".$_SERVER['PHP_SELF']);
+            header("Location:".$_SERVER['PHP_SELF']);
         }
         var_dump($sql);
 }

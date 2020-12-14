@@ -2,7 +2,10 @@
 <?php
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if(isset($_POST['new_products_submit'])){
-        addtoCart($_POST['user_id'], $_POST['item_id']);
+        if(isset($_SESSION['admin'])) addtoCart($_SESSION['userID'], $_POST['item_id']);
+        else{
+            addtoCart(0, $_POST['item_id']);
+        }
         header("Location:".$_SERVER['PHP_SELF']);
     }
 
@@ -27,7 +30,6 @@ $in_cart =  getCartId(fetchProduct('cart'));
                             </div>
                             <form method="post">
                                 <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? 'i';?>">
-                                <input type="hidden" name="user_id" value="<?php echo 1;?>">
                                 <?php
                                 if(in_array($item['item_id'], $in_cart ?? []) ){
                                     echo ' <button type="submit" disabled class="btn btn-success text-white font-size-12">w koszyku</button>';
@@ -44,3 +46,4 @@ $in_cart =  getCartId(fetchProduct('cart'));
         </div>
         <!-- finish owl -->
 </section>
+<?php     var_dump($_SESSION);?>

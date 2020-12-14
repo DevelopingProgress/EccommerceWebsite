@@ -62,3 +62,4 @@ if(isset($_GET['action']) && $_GET['action'] == "logout") {
 <section id="panelheader" class="mb-5">
 
 </section>
+<?php     var_dump($_SESSION);?>

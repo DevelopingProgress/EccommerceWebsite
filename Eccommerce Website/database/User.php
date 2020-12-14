@@ -14,6 +14,7 @@ function login($email, $password){
             $_SESSION['userID'] = $login_rows[0]['user_id'];
             $_SESSION['wishlist_count'] = count(fetchProduct('wishlist'));
             header("Location:index.php");
+            session_start();
         }
         else{
             header("Location:login.php?action=loginfailed");

@@ -3,7 +3,10 @@
 
     if($_SERVER['REQUEST_METHOD'] == "POST"){
         if(isset($_POST['top_sale_submit'])) {
-            addtoCart($_POST['user_id'], $_POST['item_id']);
+            if(isset($_SESSION['admin'])) addtoCart($_SESSION['userID'], $_POST['item_id']);
+            else{
+                addtoCart(0, $_POST['item_id']);
+            }
             header("Location:".$_SERVER['PHP_SELF']);
         }
     }
@@ -46,3 +49,4 @@
         <!-- finish owl -->
     </div>
 </section>
+<?php     var_dump($_SESSION);?>

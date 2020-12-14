@@ -29,3 +29,4 @@ ob_start();
     /*footer*/
     include('footer.php')
 ?>
+<?php     var_dump($_SESSION);?>

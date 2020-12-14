@@ -1,6 +1,5 @@
-<?php
-    session_start();
-?>
+
+<?php     var_dump($_SESSION);?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -22,7 +21,7 @@
     //require db connection
     require ("database/DBconnect.php");
     require ("functions.php");
-
+    session_start();
     ?>
 
 </head>
@@ -89,3 +88,4 @@
 
 <!-- start main -->
 <main id="main">
+<?php     var_dump($_SESSION);?>

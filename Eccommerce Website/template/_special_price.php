@@ -5,7 +5,10 @@ $unique = array_unique($brand);
 sort($unique);
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if(isset($_POST['special_price_submit'])){
-        addtoCart($_POST['user_id'], $_POST['item_id']);
+        if(isset($_SESSION['admin'])) addtoCart($_SESSION['userID'], $_POST['item_id']);
+        else{
+            addtoCart(0, $_POST['item_id']);
+        }
         header("Location:".$_SERVER['PHP_SELF']);
     }
 }
@@ -56,3 +59,4 @@ $in_cart =  getCartId(fetchProduct('cart'));
         </div>
     </div>
 </section>
+<?php     var_dump($_SESSION);?>
