@@ -31,6 +31,9 @@
 
                 </div>
             </div>
+            <?php
+                if(isset($_SESSION['admin'])){
+            ?>
             <div class="col-lg-2 col-12">
                 <h4 class="font-rubik font-size-20">Konto</h4>
                 <div class="d-flex flex-column flex-wrap">
@@ -39,6 +42,9 @@
                     <a href="" class="font-raleway font-size-14 text-white-50 pb-1 text-decoration-none">Lista życzeń</a>
                 </div>
             </div>
+            <?php
+            }
+            ?>
         </div>
     </div>
 </footer>
@@ -46,11 +52,6 @@
     <p class="font-raleway font-size-14">&copy;Copyrights 2020.Design By <a href="https://www.linkedin.com/in/developingprogress/" class="color-second text-decoration-none">Kacper Gaweł</a></p>
 </div>
 <!-- finish footer -->
-
-
-
-
-
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>

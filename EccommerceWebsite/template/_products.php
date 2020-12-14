@@ -6,7 +6,10 @@
             $in_cart =  getCartId(fetchProduct('cart'));
             if($_SERVER['REQUEST_METHOD'] == "POST"){
                 if(isset($_POST['product_submit'])){
-                    addtoCart($_POST['user_id'], $_POST['item_id']);
+                    if(isset($_SESSION['admin'])) addtoCart($_SESSION['userID'], $_POST['item_id']);
+                    else{
+                        addtoCart(0, $_POST['item_id']);
+                    }
                     header("Location:product.php?item_id=".$item_id);
                 }
             }
@@ -17,7 +20,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <img src="<?php echo $item['item_image'] ?? '.asstets/biurka_game_1.png' ?>" alt="" class="img-fluid">
-                <div class="row row-cols-2 pt-4 font-size-16 font-baloo">
+                <div class="row row-cols-2 pt-4 font-size-16 font-roboto">
 
                     <div class="col">
                         <button type="submit" class="btn btn-danger form-control">Kup</button>
@@ -27,7 +30,6 @@
                     <div class="col">
                         <form method="post">
                             <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? 'i';?>">
-                            <input type="hidden" name="user_id" value="<?php echo 1;?>">
                         <?php
                         if(in_array($item['item_id'], $in_cart ?? []) ){
                             echo ' <button type="submit" disabled class="btn btn-success text-white form-control">w koszyku</button>';
@@ -42,7 +44,7 @@
                 </div>
             </div>
             <div class="col-sm-6 py-5">
-                <h5 class="font-baloo font-size-20"><?php echo $item['item_name'] ?? 'Unknown'?></h5>
+                <h5 class="font-roboto font-size-20"><?php echo $item['item_name'] ?? 'Unknown'?></h5>
                 <small>by <?php echo $item['item_brand'] ?? 'Brand:' ?></small>
                 <div class="d-flex">
                     <a href="#" class="px-2 font-raleway font-size-14" style="text-decoration: none">20000 ocen | 1000+ udzielonych odpowiedzi</a>
@@ -97,7 +99,7 @@
                         <!-- color -->
                         <div class="color my-3">
                             <div class="d-flex justify-content-between">
-                                <h6 class="font-baloo">Color:</h6>
+                                <h6 class="font-roboto">Color:</h6>
                                 <div class="p-2 color-yellow-bg rounded-circle"><button class="btn font-size-14"></button></div>
                                 <div class="p-2 color-primary-bg rounded-circle"><button class="btn font-size-14"></button></div>
                                 <div class="p-2 color-second-bg rounded-circle"><button class="btn font-size-14"></button></div>
@@ -108,7 +110,7 @@
                     <div class="col-6">
                         <!--  quantity  -->
                         <div class="qty d-flex">
-                            <h6 class="font-baloo">Ilość:</h6>
+                            <h6 class="font-roboto">Ilość:</h6>
                             <div class="px-4 d-flex font-raleway">
                                 <button class="qty-up border bg-light" data-id="pro1"><i class="fas fa-angle-up"></i></button>
                                 <input type="text" class="qty-input border px-2 w-50 bg-light text-center" disabled value="1" placeholder="1" data-id="pro1">
@@ -122,7 +124,7 @@
                 <!-- size -->
 
                 <div class="size my-3">
-                    <h6 class="font-baloo">Rozmiar blatu:</h6>
+                    <h6 class="font-roboto">Rozmiar blatu:</h6>
                     <div class="d-flex justify-content-between w-75">
                         <div class="font-rubik border p-2">
                             <button class="btn p-0 font-size-14">160cm x 100cm</button>

@@ -1,7 +1,7 @@
 <?php
-if(isset($_GET['action']) && $_GET['action'] == "logout") {
-    logout();
-}
+    if(isset($_GET['action']) && $_GET['action'] == 'logout'){
+        logout();
+    }
 ?>
 <!--Section: Login Form-->
 <section id="panelnav" class="mb-5">
@@ -59,7 +59,5 @@ if(isset($_GET['action']) && $_GET['action'] == "logout") {
     <!-- finish panel nav -->
 </section>
 
-<section id="panelheader" class="mb-5">
 
 </section>
-<?php     var_dump($_SESSION);?>

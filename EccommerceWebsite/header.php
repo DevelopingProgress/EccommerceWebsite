@@ -1,6 +1,12 @@
+<?php
+session_start();
+//require db connection
+require ("database/DBconnect.php");
+require ("functions.php");
 
+?>
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,38 +22,11 @@
     <title>Biurka Plex</title>
     <!-- Custom CSS file -->
     <link rel="stylesheet" href="style.css">
-    <?php
-    //require db connection
-    require ("database/DBconnect.php");
-    require ("functions.php");
-    session_start();
-    ?>
-
 </head>
 <body>
 
 <!-- start header -->
 <header id="header">
-    <div class="strip d-flex justify-content-between px-4 py-1 m-0 bg-light">
-        <p class="font-roboto font-size-20 text-black-50 m-0">Przedsiębiorstwo Techniczne PLEX  Sp. z o.o.  NIP 6312663788   REGON 364950320  44-100 Gliwice, ul. Chorzowska 58 tel. +48 32 270 35 48</p>
-        <div class="font-raleway font-size-14">
-            <a href="<?php if(isset($_SESSION['admin'])) echo 'panel.php'; else echo 'login.php' ?>" class="px-3 border-right border-left text-dark text-decoration-none"><?php
-
-
-                if(isset($_SESSION['admin'])){
-                    echo $_SESSION['admin'];
-                }else{
-                    echo 'Zaloguj się';
-                }
-
-
-                ?></a>
-            <?php
-                $count = count(fetchProduct('wishlist')) ?? 0;
-                if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-dark text-decoration-none">Lista życzeń('.$count.')</a>'
-            ?>
-        </div>
-    </div>
 
     <!-- start primary nav -->
     <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
@@ -68,6 +47,24 @@
                         <a class="nav-link" href="#">Kontakt</a>
                     </li>
                 </ul>
+                <div class="mb-0 me-3">
+                    <a href="<?php if(isset($_SESSION['admin'])) echo 'panel.php'; else echo 'login.php' ?>" class="border-right border-left text-white text-decoration-none font-roboto"><?php
+
+
+                        if(isset($_SESSION['admin'])){
+                            echo $_SESSION['admin'];
+                        }else{
+                            echo 'Zaloguj się';
+                        }
+
+
+                        ?></a>
+                    <?php
+                    $count = count(fetchProduct('wishlist')) ?? 0;
+                    if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-dark text-decoration-none">Lista życzeń('.$count.')</a>'
+                    ?>
+                </div>
+
                 <form action="#" class="font-size-14 font-rale">
                     <a href="cart.php" class="py-2 rounded-pill color-primary-bg text-decoration-none">
                         <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
@@ -86,4 +83,3 @@
 
 <!-- start main -->
 <main id="main">
-<?php     var_dump($_SESSION);?>

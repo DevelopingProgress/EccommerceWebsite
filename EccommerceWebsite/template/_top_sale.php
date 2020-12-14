@@ -1,4 +1,3 @@
-<!-- top sale -->
 <?php
 
     if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -49,4 +48,3 @@
         <!-- finish owl -->
     </div>
 </section>
-<?php     var_dump($_SESSION);?>

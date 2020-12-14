@@ -1,5 +1,4 @@
 <?php
-
 function fetchProduct($table = 'product'){
     include ('DBconnect.php');
     $sql = "SELECT * FROM {$table} ";

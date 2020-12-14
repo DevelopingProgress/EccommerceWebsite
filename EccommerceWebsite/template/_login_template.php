@@ -8,7 +8,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 ?>
 <!--Section: Login Form-->
 <section id="login-form" class="py-3 mb-5">
-    <div class="container-fluid w-25">
+    <div class="container-fluid w-50">
         <h5 class="font-roboto font-size-20">Zaloguj się</h5>
 
             <form method="post" class="needs-validation" novalidate autocomplete="off">

@@ -124,7 +124,11 @@ $(document).ready(function(){
         });
     })
 
-
+    $(document).ready(function(){
+        $("new_products_submit").click(function(){
+            location.reload();
+        });
+    });
 
 
     });

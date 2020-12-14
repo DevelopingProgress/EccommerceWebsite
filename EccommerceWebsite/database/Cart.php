@@ -23,10 +23,7 @@ function addtoCart($user_id, $item_id){
 
         //insert data into cart
         $result = insertCart($params);
-        if($result){
-            //reload page
-            header("Location:",$_SERVER['PHP_SELF']);
-        }
+
     }
 }
 
@@ -47,9 +44,6 @@ function deleteCart($item_id = null, $table = 'cart'){
         $sql = "DELETE FROM {$table} WHERE item_id={$item_id}";
         $stmt = $dbconnect->prepare($sql);
         $stmt->execute();
-        if($stmt){
-            header("Location:".$_SERVER['PHP_SELF']);
-        }
 
     }
     return $stmt;
@@ -71,9 +65,7 @@ function rotate($item_id = null, $saveTable = "wishlist", $fromTable = "cart"){
         $sql.="DELETE FROM {$fromTable} WHERE item_id={$item_id};";
         $stmt = $dbconnect->prepare($sql);
         $stmt->execute();
-        if($stmt){
-            header("Location:".$_SERVER['PHP_SELF']);
-        }
+
 
     }
     return $stmt;
@@ -85,8 +77,5 @@ function clearCart($table = 'cart'){
         $sql = "DELETE FROM {$table}";
         $stmt = $dbconnect->prepare($sql);
         $stmt->execute();
-        if($stmt){
-            header("Location:".$_SERVER['PHP_SELF']);
-        }
-        var_dump($sql);
+
 }

@@ -1,4 +1,3 @@
-<!--  new products  -->
 <?php
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if(isset($_POST['new_products_submit'])){
@@ -46,4 +45,3 @@ $in_cart =  getCartId(fetchProduct('cart'));
         </div>
         <!-- finish owl -->
 </section>
-<?php     var_dump($_SESSION);?>

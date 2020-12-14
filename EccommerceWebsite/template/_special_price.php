@@ -1,4 +1,3 @@
-<!-- special price -->
 <?php
 $brand = array_map(function ($pro){ return $pro['item_brand'];},$product_shuffle);
 $unique = array_unique($brand);
@@ -44,7 +43,9 @@ $in_cart =  getCartId(fetchProduct('cart'));
                                 if(in_array($item['item_id'], $in_cart ?? []) ){
                                     echo ' <button type="submit" disabled class="btn btn-success text-white font-size-12">w koszyku</button>';
                                 }else{
-                                    echo ' <button type="submit" name="special_price_submit" class="btn btn-danger text-white font-size-12">do koszyka</button>';
+                                    echo ' <button onclick="function refreshPage() {
+                                      window.location.reload();
+                                    }" type="submit" name="special_price_submit" class="btn btn-danger text-white font-size-12">do koszyka</button>';
                                 }
 
                                 ?>
@@ -59,4 +60,3 @@ $in_cart =  getCartId(fetchProduct('cart'));
         </div>
     </div>
 </section>
-<?php     var_dump($_SESSION);?>

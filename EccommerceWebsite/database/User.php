@@ -14,7 +14,6 @@ function login($email, $password){
             $_SESSION['userID'] = $login_rows[0]['user_id'];
             $_SESSION['wishlist_count'] = count(fetchProduct('wishlist'));
             $_SESSION['cart_count'] = count(fetchProduct('cart'));
-            session_start();
             header("Location:index.php");
 
         }
@@ -35,3 +34,4 @@ function logout(){
     session_unset();
     header('Location:index.php');
 }
+?>
