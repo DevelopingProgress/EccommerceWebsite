@@ -11,12 +11,12 @@ ob_start();
     }
 ?>
 <section id="cart" class="py-3 mb-5">
-    <div class="container-fluid w-75">
+    <div id="cart_container" class="container-fluid w-75">
         <h5 class= "font-roboto font-size-20">Koszyk</h5>
 
         <!-- shopping cart items-->
-        <div class="row">
-            <div class="col-sm-9">
+        <div class="row" >
+            <div class="col-sm-9" >
                 <?php
                     $cart = fetchProduct('cart');
                     foreach ($cart as $item):
@@ -27,7 +27,7 @@ ob_start();
 
 
                 ?>
-                <div class="row">
+                <div class="row" id="shopping-rows">
                 <!-- cart item -->
                     <div class="row border-top py-3 mt-3 border">
                         <div class="col-sm-2">

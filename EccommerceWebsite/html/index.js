@@ -78,5 +78,26 @@ $(document).ready(function(){
     $(document).ready(function(){
         $('.dropdown-toggle').dropdown()
     });
+
+    $(document).ready(function (){
+       $('#cart_submit').click(function () {
+           var add_to_cart_txt = $('#add_to_cart').val();
+           if($.trim(add_to_cart_txt) != ''){
+               $.ajax({
+                  url:"_wishlist_template.php",
+                   method: "POST",
+                   data: {add_to_cart: add_to_cart_txt},
+                   dataType:"text",
+                   success: function (data){
+                       $('#add_to_cart').val("");
+                   }
+               });
+           }
+       });
+    });
+
+    setInterval(function (){
+        $('#cart').load("_wishlist_template.php").fadeIn("slow");
+    }, 1000);
 });
 

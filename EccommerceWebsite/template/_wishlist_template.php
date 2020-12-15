@@ -1,5 +1,4 @@
 <?php
-ob_start();
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['delete_wishlist_submit'])){
         $deletedrecord = deleteWishlist($_POST['item_id']);
@@ -10,7 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 }
 if(isset($_SESSION['admin'])){
 ?>
-<section id="cart" class="py-3 mb-5">
+<section id="wishlist" class="py-3 mb-5">
     <div class="container-fluid w-75">
         <h5 class="font-roboto font-size-20">Lista życzeń</h5>
 
@@ -25,7 +24,7 @@ if(isset($_SESSION['admin'])){
                 if(!isset($_SESSION['admin'])) $subTotal[] = null;
                 else{
                         ?>
-                        <div class="row">
+                        <div class="row" id="wishlist-rows">
                             <!-- cart item -->
                             <div class="row border-top py-3 mt-3">
                                 <div class="col-sm-2">
@@ -34,18 +33,6 @@ if(isset($_SESSION['admin'])){
                                 <div class="col-sm-8">
                                     <h5 class="font-roboto font-size-20"><?php echo $item['item_name'] ?? "Unknown"?></h5>
                                     <small>by <?php echo $item['item_brand'] ?? "BRAND:"?></small>
-                                    <!-- product rating -->
-                                    <div class="d-flex">
-                                        <div class="rating text-warning font-size-12">
-                                            <span><i class="fas fa-star"></i></span>
-                                            <span><i class="fas fa-star"></i></span>
-                                            <span><i class="fas fa-star"></i></span>
-                                            <span><i class="fas fa-star"></i></span>
-                                            <span><i class="fas fa-star"></i></span>
-                                        </div>
-                                        <a href="" class="px-2 font-raleway font-size-14">20000 ocen</a>
-                                    </div>
-                                    <!-- product rating -->
 
 
                                     <div class="qty d-flex pt-2">
@@ -56,10 +43,13 @@ if(isset($_SESSION['admin'])){
                                         </form>
 
                                         <form method="post">
-                                            <input type="hidden" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
-                                            <button type="submit" name="cart_submit" class="btn font-roboto text-danger px-3">Dodaj do koszyka</button>
+                                            <input type="hidden" id="add_to_cart" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
+                                            <div id="cart_submit_id"><button type="submit" name="cart_submit" id="cart_submit" class="btn font-roboto text-danger px-3">Dodaj do koszyka</button></div>
+
                                         </form>
                                     </div>
+
+
 
                                 </div>
                                 <div class="col-sm-2 text-end">

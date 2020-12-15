@@ -21,9 +21,7 @@ function addtoCart($user_id, $item_id){
             "item_id" => $item_id
         );
 
-        //insert data into cart
-        $result = insertCart($params);
-
+        insertCart($params);
     }
 }
 

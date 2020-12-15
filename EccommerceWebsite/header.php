@@ -70,7 +70,7 @@ require ("functions.php");
                         ?></a>
                     <?php
                     $count = count(fetchProduct('wishlist')) ?? 0;
-                    if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-white text-decoration-none">Lista życzeń('.$count.')</a>'
+                    if(isset($_SESSION['admin'])) echo '<a href="wishlist.php" class="px-3 border-right  text-white text-decoration-none">Lista życzeń('.$count.')</a>'
                     ?>
                 </div>
 

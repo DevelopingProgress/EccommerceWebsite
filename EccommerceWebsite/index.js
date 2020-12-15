@@ -136,5 +136,20 @@ $(document).ready(function(){
         $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
     });
 
+    $(document).ready(function(){
+        $('.dropdown-toggle').dropdown()
+    });
+
+
+
+    $(document).ready(function() { /// Wait till page is loaded
+        $('#cart_submit').click(function(){
+            $('#cart_submit_id').load('cart.php #shopping_rows', function() {
+                /// can add another function here
+            });
+        });
+    }); //// End of Wait till page is loaded
+
+
 });
 
