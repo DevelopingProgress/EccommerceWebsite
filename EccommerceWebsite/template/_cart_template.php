@@ -10,7 +10,7 @@ ob_start();
         }
     }
 ?>
-<section id="cart" class="py-3 mb-5">
+<section id="cart" class="py-3 mb-10">
     <div id="cart_container" class="container-fluid w-75">
         <h5 class= "font-roboto font-size-20">Koszyk</h5>
 

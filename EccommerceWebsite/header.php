@@ -37,7 +37,7 @@ require ("functions.php");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#">Oferta</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" aria-haspopup="true" aria-expanded="false">Oferta</a>
                         <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" class="dropdown-item">Kategoria 1</a>
                             <a href="#" class="dropdown-item">Kategoria 2</a>
@@ -46,7 +46,7 @@ require ("functions.php");
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#">Kategorie</a>
-                        <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">
                             <a href="#" class="dropdown-item">Kategoria 1</a>
                             <a href="#" class="dropdown-item">Kategoria 2</a>
                             <a href="#" class="dropdown-item">Kategoria 3</a>
