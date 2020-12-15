@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="uploaded">
-      <change beforePath="$PROJECT_DIR$/.idea/EccommerceWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EccommerceWebsite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7dbeab84-40e6-4462-a17a-cd829ce65adb/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EccommerceWebsite/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EccommerceWebsite/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/html/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/html/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EccommerceWebsite/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_banner_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_banner_area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_cart_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_cart_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_new_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_new_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_special_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_special_price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_top_sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_top_sale.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1607942472475" duration="3880000" />
       <workItem from="1607951291701" duration="15076000" />
       <workItem from="1607980500949" duration="3726000" />
-      <workItem from="1607984273385" duration="321000" />
+      <workItem from="1607984273385" duration="9408000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607941536747</created>
@@ -148,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607964537618</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="uploaded">
+      <created>1607984767123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607984767123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

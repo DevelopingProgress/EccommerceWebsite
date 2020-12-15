@@ -8,8 +8,7 @@ $(document).ready(function(){
     //top sale owl carousel
     $("#top-sale .owl-carousel").owlCarousel({
         loop: true,
-        nav: true,
-        dots: false,
+        dots: true,
         responsive:{
             0:{
                 items:1
@@ -20,7 +19,7 @@ $(document).ready(function(){
             1000:{
                 items:5
             }
-        }   
+        }
     });
 
     //isotope filter
@@ -37,7 +36,6 @@ $(document).ready(function(){
     //new products owl carousel
     $("#new-products .owl-carousel").owlCarousel({
         loop: true,
-        nav: false,
         dots: true,
         responsive:{
             0:{
@@ -52,19 +50,6 @@ $(document).ready(function(){
         }
     });
 
-    $("#blogs .owl-carousel").owlCarousel({
-        loop: true,
-        nav: false,
-        dots: true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            }
-        }
-    });
 
     //product qty
     let $qty_up = $(".qty .qty-up");
@@ -88,6 +73,10 @@ $(document).ready(function(){
                 return --oldval;
             })
         }
+    });
+
+    $(document).ready(function(){
+        $('.dropdown-toggle').dropdown()
     });
 });
 

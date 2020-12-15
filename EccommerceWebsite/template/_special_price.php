@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 $in_cart =  getCartId(fetchProduct('cart'));
 ?>
 <section id="special-price">
-    <div class="container">
+    <div class="container-fluid">
         <h4 class="font-rubik font-size-20">Produkty</h4>
         <div id="filters" class="btn-group text-right">
             <button class="btn is-checked" data-filter="*">Wszyscy producenci</button>
@@ -26,7 +26,7 @@ $in_cart =  getCartId(fetchProduct('cart'));
         </div><br><br>
         <div class="grid">
             <?php array_map(function ($item) use($in_cart){?>
-            <div class="grid-item border <?php echo $item['item_brand'] ?? "Brand"; ?>">
+            <div class="grid-item <?php echo $item['item_brand'] ?? "Brand"; ?>">
                 <div class="item py_2" style="width: 200px;">
                     <div class="product font-raleway">
                         <a href="<?php printf('%s?item_id=%s', 'product.php', $item['item_id'])?>"><img src="<?php echo $item['item_image'] ?? "./assets/biurka_game_1.png"?>" class="img-fluid" height="300px" width="300px"></a>

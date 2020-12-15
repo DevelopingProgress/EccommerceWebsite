@@ -66,32 +66,30 @@ button.button:focus {
 #top-sale .owl-carousel .item .product img:hover {
     transform: scale(1.1);
 }
-#top-sale .owl-carousel .owl-nav button {
-    position: absolute;
-    top: 30%;
-    outline: none;
-}
-#top-sale .owl-carousel .owl-nav button.owl-prev {
-    left: 0;
-}
-#top-sale .owl-carousel .owl-nav button.owl-prev span,
-#top-sale .owl-carousel .owl-nav button.owl-next span {
-    font-size: 35px;
-    color: #000000;
-    padding: 0 1rem;
-}
-#top-sale .owl-carousel .owl-nav button.owl-prev span {
-    margin-left: -4rem;
-}
-#top-sale .owl-carousel .owl-nav button.owl-next {
-    right: 0;
-}
-#top-sale .owl-carousel .owl-nav button.owl-next span {
-    margin-right: -4rem;
-}
+
 #special-price .grid .grid-item{
-    margin-right: 1.2rem;
-    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+}
+
+#special-price .grid .grid-item a {
+    overflow: hidden;
+}
+#special-price .grid .grid-item img {
+    transition: transform 0.5s ease;
+}
+#special-price .grid .grid-item img:hover {
+    transform: scale(1.1);
+}
+
+#new-products .owl-carousel .item .product a {
+    overflow: hidden;
+}
+#new-products .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+#new-products .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
 }
 
 .skin-light .login-form,

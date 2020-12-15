@@ -16,7 +16,7 @@
 ?>
 <!--  start product  -->
 <section id="product" class="py-3">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-6">
                 <img src="<?php echo $item['item_image'] ?? '.asstets/biurka_game_1.png' ?>" alt="" class="img-fluid">

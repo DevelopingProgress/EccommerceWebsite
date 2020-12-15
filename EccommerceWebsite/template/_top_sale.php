@@ -11,7 +11,7 @@
     }
 ?>
 <section id="top-sale">
-    <div class="container py-5">
+    <div class="container-fluid py-5">
         <h4 class="font-rubik font-size-20">Najlepiej oceniane</h4>
         <hr>
         <!-- start owl carousel top sale products -->
@@ -29,7 +29,6 @@
                         </div>
                         <form method="post">
                             <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? 'i';?>">
-                            <input type="hidden" name="user_id" value="<?php echo 1;?>">
                             <?php
                             $arr = getCartId(fetchProduct('cart'));
                                 if(in_array($item['item_id'], $arr ?? []) ){

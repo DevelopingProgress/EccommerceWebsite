@@ -29,50 +29,42 @@ ob_start();
                 ?>
                 <div class="row">
                 <!-- cart item -->
-                    <div class="row border-top py-3 mt-3">
+                    <div class="row border-top py-3 mt-3 border">
                         <div class="col-sm-2">
                             <img src="<?php echo $item['item_image'] ?? "./assets/biurka_game_1.png"; ?>" alt="cart1" class="img-fluid" style="height: 120px">
                         </div>
                         <div class="col-sm-8">
                             <h5 class= "font-roboto font-size-20"><?php echo $item['item_name'] ?? "Unknown"?></h5>
                             <small>by <?php echo $item['item_brand'] ?? "BRAND:"?></small>
-                            <!-- product rating -->
-                            <div class="d-flex">
-                                <div class="rating text-warning font-size-12">
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                    <span><i class="fas fa-star"></i></span>
-                                </div>
-                                <a href="" class="px-2 font-raleway font-size-14">20000 ocen</a>
-                            </div>
-                            <!-- product rating -->
+
 
                             <!-- product qty -->
                             <div class="qty d-flex pt-2">
                                 <div class="d-flex font-raleway w-25">
                                     <div class="qty d-flex">
+                                        <input type="text" style="width: 150px" class="qty-input border px-2 bg-light text-center" disabled value="1" placeholder="1" data-id="<?php echo $item['item_id'] ?? '0' ?>">
                                         <button class="qty-up border bg-light" data-id="<?php echo $item['item_id'] ?? '0' ?>"><i class="fas fa-angle-up"></i></button>
-                                        <input type="text" class="qty-input border px-2 w-100 bg-light text-center" disabled value="1" placeholder="1" data-id="<?php echo $item['item_id'] ?? '0' ?>">
                                         <button class="qty-down border bg-light" data-id="<?php echo $item['item_id'] ?? '0' ?>" ><i class="fas fa-angle-down"></i></button>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="qty d-flex pt-2 m-0">
                                 <form method="post">
                                     <input type="hidden" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
-                                    <button type="submit" name="delete_cart_submit" class="btn font-roboto text-danger px-3 ">Usuń</button>
+                                    <button type="submit" name="delete_cart_submit" class="btn font-roboto text-danger">Usuń</button>
                                 </form>
                                 <?php
                                 if(isset($_SESSION['admin'])){
                                 ?>
                                 <form method="post">
                                     <input type="hidden" value="<?php echo $item['item_id'] ?? 0;?>" name="item_id">
-                                    <button type="submit" name="wishlist_submit" class="btn font-roboto text-danger px-3 border-start">Dodaj do listy życzeń</button>
+                                    <button type="submit" name="wishlist_submit" class="btn font-roboto text-danger">Dodaj do listy życzeń</button>
                                 </form>
                                 <?php
                                 }
                                 ?>
                             </div>
+
                             <!-- product qty -->
                         </div>
                         <div class="col-sm-2 text-end">

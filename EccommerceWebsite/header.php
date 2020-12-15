@@ -37,18 +37,16 @@ require ("functions.php");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#">Oferta</a>
+                        <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="#" class="dropdown-item">Kategoria 1</a>
+                            <a href="#" class="dropdown-item">Kategoria 2</a>
+                            <a href="#" class="dropdown-item">Kategoria 3</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#">Kategorie</a>
-                        <div class="dropdown-menu" aria-labelby="navbarDropdownMenuLink">
+                        <div class="dropdown-menu" role="menu" aria-labelledby="navbarDropdownMenuLink">
                             <a href="#" class="dropdown-item">Kategoria 1</a>
                             <a href="#" class="dropdown-item">Kategoria 2</a>
                             <a href="#" class="dropdown-item">Kategoria 3</a>
@@ -58,7 +56,7 @@ require ("functions.php");
                         <a class="nav-link" href="#">Kontakt</a>
                     </li>
                 </ul>
-                <div class="mb-0 me-3">
+                <div class="mb-3 me-3">
                     <a href="<?php if(isset($_SESSION['admin'])) echo 'panel.php'; else echo 'login.php' ?>" class="border-right border-left text-white text-decoration-none font-roboto"><?php
 
 
@@ -72,11 +70,11 @@ require ("functions.php");
                         ?></a>
                     <?php
                     $count = count(fetchProduct('wishlist')) ?? 0;
-                    if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-dark text-decoration-none">Lista życzeń('.$count.')</a>'
+                    if(isset($_SESSION['admin'])) echo '<a href="cart.php" class="px-3 border-right  text-white text-decoration-none">Lista życzeń('.$count.')</a>'
                     ?>
                 </div>
 
-                <form action="#" class="font-size-14 font-rale">
+                <form action="#" class="font-size-14 font-rale mb-3">
                     <a href="cart.php" class="py-2 rounded-pill color-primary-bg text-decoration-none">
                         <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
                         <span class="px-3 py-2 rounded-pill text-dark bg-light"><?php

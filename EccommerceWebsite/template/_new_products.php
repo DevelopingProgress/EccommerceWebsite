@@ -13,12 +13,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 $in_cart =  getCartId(fetchProduct('cart'));
 ?>
 <section id="new-products">
-    <div class="container py-5">
+    <div class="container-fluid py-5">
         <h4 class="font-rubik font-size-20">Nowości</h4>
         <div class="owl-carousel owl-theme">
             <?php
             foreach ($product_shuffle as $item) {?>
-                <div class="item py-2 bg-light">
+                <div class="item py-2 px-2 bg-light">
                     <div class="product font-raleway">
                         <a href="<?php printf('%s?item_id=%s', 'product.php', $item['item_id'])?>"><img src="<?php echo $item['item_image'] ?? "./assets/biurka_game_1.png"?>" alt="top1" class="img-fluid" height="300px" width="300px"></a>
                         <div class="text-center">
