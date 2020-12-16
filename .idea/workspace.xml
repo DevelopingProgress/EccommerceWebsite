@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22e9c3f0-2710-43a2-8f63-f49b22331c11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/ajax.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/_new_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/_new_products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/_special_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/_special_price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/_top_sale.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/_top_sale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/_wishlist_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/_wishlist_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/include/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/include/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/include/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/_cart_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/_cart_template.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608079592817</updated>
-      <workItem from="1608079593969" duration="10373000" />
+      <workItem from="1608079593969" duration="11016000" />
     </task>
+    <task id="LOCAL-00001" summary="semi-working refreshing">
+      <created>1608090105360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608090105360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="semi-working refreshing" />
+    <option name="LAST_COMMIT_MESSAGE" value="semi-working refreshing" />
   </component>
 </project>

@@ -149,6 +149,18 @@ $(document).ready(function(){
 
     });
 
+    // let $wishlist_submit = $("#wishlist_submit");
+    // $wishlist_submit.click(function(e){
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "cart.php",
+    //         data: {itemid: $(this).data("id")},
+    //     }).done(function (){
+    //         window.location.reload();
+    //     });
+    //
+    // });
+
 
 
 });

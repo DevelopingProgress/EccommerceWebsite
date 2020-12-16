@@ -59,7 +59,7 @@
                                 ?>
                                 <form method="post">
                                     <input type="hidden" value="<?php echo $item['item_id'];?>" name="item_id">
-                                    <button type="submit" name="wishlist_submit" class="btn font-roboto text-danger">Dodaj do listy życzeń</button>
+                                    <button type="submit" name="wishlist_submit"  class="btn font-roboto text-danger" data-id="<?php echo $item['item_id']; ?>">Dodaj do listy życzeń</button>
                                 </form>
                                 <?php
                                 }
