@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "livereload-js": "^3.3.1"
-  }
+  "name": "plexsklep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass ./sass/style.scss style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

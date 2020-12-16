@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="uploaded">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EccommerceWebsite/template/_cart_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/EccommerceWebsite/template/_cart_template.php" afterDir="false" />
-    </list>
+    <list default="true" id="22e9c3f0-2710-43a2-8f63-f49b22331c11" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,34 +10,12 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/EccommerceWebsite/node_modules/sass/sass.dart.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EccommerceWebsite/node_modules/sass/sass.js" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectId" id="1lTt9gVTfdtSnsu31csy7d0rYmn" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1liUq3yU4aRtlBGhqvtK1bUc9Jm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,133 +24,36 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="database.data.extractors.current.export.id" value="Comma-separated (CSV)_id" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.3.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Users\kacpi\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\203.5981.175\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="ReaderModeSettings">
-    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\html" />
+      <recent name="C:\Users\kacpi\PhpstormProjects\plexsklep" />
+      <recent name="C:\Users\kacpi\PhpstormProjects\plexsklep\sass\include" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp_1\htdocs\EccommerceWebsite\EccommerceWebsite" />
-      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\template" />
-      <recent name="C:\xampp\htdocs\EccommerceWebsite\Eccommerce Website\html" />
+      <recent name="C:\Users\kacpi\PhpstormProjects\plexsklep\sass\include" />
     </key>
-  </component>
-  <component name="RunManager" selected="PHP Script.index.php">
-    <configuration name="_new_products.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EccommerceWebsite/Eccommerce Website/template/_new_products.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/EccommerceWebsite/index.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug._new_products.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ee2e08d3-8859-4702-8482-37a394cfc0f2" name="Default Changelist" comment="" />
-      <created>1607632759125</created>
+      <changelist id="22e9c3f0-2710-43a2-8f63-f49b22331c11" name="Default Changelist" comment="" />
+      <created>1608079592817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607632759125</updated>
-      <workItem from="1607632760231" duration="440000" />
-      <workItem from="1607633252266" duration="9133000" />
-      <workItem from="1607683821506" duration="17036000" />
-      <workItem from="1607760964031" duration="6704000" />
-      <workItem from="1607769035022" duration="16682000" />
-      <workItem from="1607939317950" duration="3073000" />
-      <workItem from="1607942472475" duration="3880000" />
-      <workItem from="1607951291701" duration="15076000" />
-      <workItem from="1607980500949" duration="3726000" />
-      <workItem from="1607984273385" duration="9408000" />
-      <workItem from="1608029869479" duration="539000" />
-      <workItem from="1608042265273" duration="11013000" />
+      <updated>1608079592817</updated>
+      <workItem from="1608079593969" duration="4411000" />
     </task>
-    <task id="LOCAL-00001" summary="update">
-      <created>1607941536747</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607941536747</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1607943997247</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607943997247</updated>
-    </task>
-    <task id="LOCAL-00003" summary="uploaded">
-      <created>1607964279048</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1607964279048</updated>
-    </task>
-    <task id="LOCAL-00004" summary="uploaded">
-      <created>1607964309391</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1607964309391</updated>
-    </task>
-    <task id="LOCAL-00005" summary="uploaded">
-      <created>1607964537618</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1607964537618</updated>
-    </task>
-    <task id="LOCAL-00006" summary="uploaded">
-      <created>1607984767123</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1607984767123</updated>
-    </task>
-    <task id="LOCAL-00007" summary="separate cart and wishlist">
-      <created>1608051660793</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608051660793</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
-    <MESSAGE value="uploaded" />
-    <MESSAGE value="separate cart and wishlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate cart and wishlist" />
   </component>
 </project>

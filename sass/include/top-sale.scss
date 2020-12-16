@@ -1,0 +1,16 @@
+// top sale template
+
+#top-sale{
+    .owl-carousel .item .product a{
+        overflow: hidden;
+    }
+    .owl-carousel .item .product img{
+        transition: transform .5s ease;
+    }
+    .owl-carousel .item .product img:hover{
+        transform: scale(1.1);
+    }
+    
+    
+
+}

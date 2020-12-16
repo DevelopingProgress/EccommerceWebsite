@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EccommerceWebsite.iml" filepath="$PROJECT_DIR$/.idea/EccommerceWebsite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/plexsklep.iml" filepath="$PROJECT_DIR$/.idea/plexsklep.iml" />
     </modules>
   </component>
 </project>

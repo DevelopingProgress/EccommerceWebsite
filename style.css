@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Raleway&family=Rubik&display=swap?family=Roboto&amp;subset=latin,latin-ext");
+/* Sass Template */
+button.button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-roboto {
+  font-family: "Roboto", cursive;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #000000;
+}
+
+.color-primary-bg {
+  background: #000000;
+}
+
+.color-second {
+  color: #DC143C;
+}
+
+.color-second-bg {
+  background: #DC143C;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+#special-price .grid .grid-item a {
+  overflow: hidden;
+}
+
+#special-price .grid .grid-item img {
+  transition: transform 0.5s ease;
+}
+
+#special-price .grid .grid-item img:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
