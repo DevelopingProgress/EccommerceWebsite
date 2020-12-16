@@ -31,7 +31,7 @@ $in_cart =  getCartId(fetchProduct('cart'));
                                 <form method="post">
                                     <input type="hidden" name="item_id" value="<?php echo $item['item_id'];?>">
                                     <?php
-                                    if(in_array($item['item_id'], $in_cart) ){
+                                    if(in_array($item['item_id'], $in_cart ?? []) ){
                                         echo ' <button type="submit" disabled class="btn btn-success text-white font-size-12">w koszyku</button>';
                                     }else{
                                         echo ' <button type="submit" name="new_products_submit" class="btn btn-danger text-white font-size-12">do koszyka</button>';

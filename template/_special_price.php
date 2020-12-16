@@ -42,7 +42,7 @@ $in_cart =  getCartId(fetchProduct('cart'));
                                 <input type="hidden" name="item_id" value="<?php echo $item['item_id'];?>">
                                 <input type="hidden" name="user_id" value="<?php echo 1;?>">
                                 <?php
-                                if(in_array($item['item_id'], $in_cart) ){
+                                if(in_array($item['item_id'], $in_cart ?? []) ){
                                     echo ' <button type="submit" disabled class="btn btn-success text-white font-size-12">w koszyku</button>';
                                 }else{
                                     echo ' <button onclick="function refreshPage() {

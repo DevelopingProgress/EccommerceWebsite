@@ -137,15 +137,18 @@ $(document).ready(function(){
     });
 
 
+    let $cart_submit = $("#cart_submit");
+    $cart_submit.click(function(e){
+            $.ajax({
+                type: "POST",
+                url: "cart.php",
+                data: {itemid: $(this).data("id")},
+            }).done(function (){
+                window.location.reload();
+            });
 
-    $.ajax({
-        type: "POST",
-        url: "cart.php",
-        data: infoPO,
-        success: function() {
-            location.reload();
-        }
     });
+
 
 
 });

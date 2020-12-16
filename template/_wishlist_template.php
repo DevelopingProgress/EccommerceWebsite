@@ -42,9 +42,9 @@ if(isset($_SESSION['admin'])){
                                             <button type="submit" name="delete_wishlist_submit" class="btn font-roboto text-danger ps-0 pe-3 border-end">Usuń</button>
                                         </form>
 
-                                        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>?wishlist=added">
-                                            <input type="hidden" id="add_to_cart" value="<?php echo $item['item_id'];?>" name="item_id">
-                                            <div id="cart_submit_id"><button type="submit" name="cart_submit" id="cart_submit" class="btn font-roboto text-danger px-3">Dodaj do koszyka</button></div>
+                                        <form method="post">
+                                            <input type="hidden" value="<?php echo $item['item_id'];?>" name="item_id">
+                                            <div id="cart_submit_id"><button type="submit" name="cart_submit" id="cart_submit" data-id="<?php echo $item['item_id']; ?>" class="btn font-roboto text-danger px-3">Dodaj do koszyka</button></div>
 
                                         </form>
                                     </div>

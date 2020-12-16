@@ -1,16 +1,6 @@
 <?php
 
 include ('header.php');
-if(isset($_GET['wishlist']) && $_GET['wishlist'] == 'added'){
-        ?>
-        <script type="text/javascript">
-                function reloadPage()
-                {
-                        window.location.reload()
-                }
-        </script>
-        <?php
-}
 
 ?>
 
